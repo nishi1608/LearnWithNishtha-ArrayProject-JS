@@ -1,0 +1,20 @@
+{
+  "name": "yes",
+  "version": "1.0.0",
+  "description": "",
+  "homepage": "https://github.com/nishi1608/LearnwithNishtha-JavaScript#readme",
+  "bugs": {
+    "url": "https://github.com/nishi1608/LearnwithNishtha-JavaScript/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nishi1608/LearnwithNishtha-JavaScript.git"
+  },
+  "license": "ISC",
+  "author": "",
+  "type": "commonjs",
+  "main": "1_Hello.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  }
+}

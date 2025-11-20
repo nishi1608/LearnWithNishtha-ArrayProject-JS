@@ -1,0 +1,40 @@
+
+<!doctype html>
+<head>
+
+     
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Array Operations in JavaScript </title>
+    <link rel="stylesheet" href="style.css">
+</head> 
+<body>
+    <main>
+        <h1>Shopping List to demonstrate Array concepts in Java Script</h1>
+        <label for="valueInput">Value:</label> <! -- Input field for entering values -->
+        <input id="valueInput" type="text" placeholder="Enter item value to add"> <! -- Input field for entering values -->
+<label for="refInput">Reference (optional):</label> <! -- Input field for entering reference index -->
+        <input id="refInput" type="number" placeholder="Enter reference index (optional)"><br> <! -- Input field for entering reference index -->
+       <br>
+        <div id ="buttonsContainer"> <! -- Container for buttons -->
+        
+        <button id="pushButton">Add Item to end </button> <! -- Button to add item to the array -->
+        <button id="unshiftButton">Add Item to beginning</button> <! --Button to add item to the beginning of the array -->
+        <button id="spliceButton">Add Item at Reference</button> <! -- Button to add item at specified index -->
+         <button id="popButton">Remove Last Item</button> <! -- Button to remove last item from the array -->
+         <button id="shiftButton">Remove First Item</button> <! -- Button to remove first item from the array -->
+         <button id="spliceRemoveButton">Remove Item at Reference</button> <! -- Button to remove item at specified index -->
+         <button id="displayButton">Display Items</button> <! -- Button to display all items in the array -->
+         <button id="findItemButton">Find Item by Value</button> <! -- Button to find item by value -->
+         <button id="clearListButton">Clear List</button> <! -- Button to clear the entire array -->
+         <button id="sortListButton">Sort Items</button> <! -- Button to sort the array items -->
+         <button id="reverseListButton">Reverse Items</button> <! -- Button to reverse the array items -->
+         <button id="replaceItemButton">Replace Item at Reference</button> <! -- Button to replace item at specified index -->
+         <button id="filterItemsButton">Filter Items by Value</button> <! -- Button to filter items by value -->
+</div>
+<section id ="outputSection"> <! -- Section to display output messages -->
+            <h2>Output:</h2>
+            <div id="output"></div> <! -- Div to show output messages -->
+        <script src="script.js"></script> <! -- Link to the JavaScript file containing array operations -->
+    </main>
+</body>
